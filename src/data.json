@@ -1,0 +1,58 @@
+{
+  "boards": [
+    {
+      "name": "Tablero de ejemplo",
+      "isActive" : true,
+      "columns": [
+        {
+          "name": "Por hacer",
+          "tasks": [
+            {
+              "title": "Optimizar imágenes de la web",
+              "description": "Optimizar las imágenes de la web, pasandolas de formato PNG/JPG a formato WEBP",
+              "status": "Por hacer",
+              "subtasks": [
+                {
+                  "title": "Organizarlas en carpetas",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "En progreso",
+          "tasks": [
+            {
+              "title": "eeeeee",
+              "description": "",
+              "status": "En progreso",
+              "subtasks": [
+                {
+                  "title": "aeeeeeeeees",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Finalizado",
+          "tasks": [
+            {
+              "title": "Dormir",
+              "description": "si",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "aaaaaaaaaa",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
